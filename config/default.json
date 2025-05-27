@@ -1,4 +1,4 @@
 {
-    "db": "mongodb://localhost/mycontacts-backend",
+    "db": "contacts_db",
     "jwtPrivateKey": "JWT_SECRET"
 }
