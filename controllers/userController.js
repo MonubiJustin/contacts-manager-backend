@@ -1,7 +1,7 @@
 const User = require('../models/userModel');
 const bcrypt = require('bcrypt');
 const _ = require('lodash');
-const jwt = require('jsonwebtoken')
+
 
 //@desc register a user
 //@route POST /api/users/register

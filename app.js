@@ -1,3 +1,4 @@
+require('dotenv').config()
 require('express-async-errors');
 const error = require('./middlewere/error');
 const contactRoutes = require('./routes/contactRoutes');

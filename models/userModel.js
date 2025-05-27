@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
-const config = require("config"); // Import the config module
+
 
 const userSchema = new mongoose.Schema(
   {
@@ -30,7 +30,7 @@ userSchema.methods.genAuthToken = function () {
         id: this.id,
       },
     },
-    config.get("jwtPrivateKey") // Use the secret from the config
+    process.env.JWT_SECRET // Use the secret from the .env
   );
 };
 
