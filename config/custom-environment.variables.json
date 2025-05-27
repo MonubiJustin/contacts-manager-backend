@@ -1,0 +1,4 @@
+{
+    "db": "contacts_db",
+    "jwtPrivateKey": "JWT_SECRET"
+}
